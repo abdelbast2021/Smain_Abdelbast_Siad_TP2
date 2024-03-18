@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da238250-d132-45b9-9751-5741d467084a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculatrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CalculatriceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UserServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Utilisateur.java" afterDir="false" />
+    <list default="true" id="da238250-d132-45b9-9751-5741d467084a" name="Changes" comment="Exercice1 - Exercice2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UserServiceTest_Exercice3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Utilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Utilisateur.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +49,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest.testCreerUtilisateur">
-    <configuration name="CalculatriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserServiceTest_Exercice3">
+    <configuration name="UserServiceTest_Exercice3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP02" />
       <extension name="coverage">
         <pattern>
@@ -65,13 +59,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CalculatriceTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.UserServiceTest_Exercice3" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatriceTest.testAdditionner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceTest_Exercice3.testCreerUtilisateur_Exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP02" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +74,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CalculatriceTest" />
-      <option name="METHOD_NAME" value="testAdditionner" />
+      <option name="MAIN_CLASS_NAME" value="org.example.UserServiceTest_Exercice3" />
+      <option name="METHOD_NAME" value="testCreerUtilisateur_Exception" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest_Exercice3.testCreerUtilisateur_UniqueIDReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.UserServiceTest_Exercice3" />
+      <option name="METHOD_NAME" value="testCreerUtilisateur_UniqueIDReturned" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest_Exercice3.testCreerUtilisateur_ValidationFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.UserServiceTest_Exercice3" />
+      <option name="METHOD_NAME" value="testCreerUtilisateur_ValidationFailure" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,9 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest_Exercice3" />
+        <item itemvalue="JUnit.UserServiceTest_Exercice3.testCreerUtilisateur_Exception" />
+        <item itemvalue="JUnit.UserServiceTest_Exercice3.testCreerUtilisateur_UniqueIDReturned" />
+        <item itemvalue="JUnit.UserServiceTest_Exercice3.testCreerUtilisateur_ValidationFailure" />
         <item itemvalue="JUnit.UserServiceTest.testCreerUtilisateur" />
-        <item itemvalue="JUnit.CalculatriceTest.testAdditionner" />
-        <item itemvalue="JUnit.CalculatriceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -120,6 +148,30 @@
       <option name="presentableId" value="Default" />
       <updated>1710768099034</updated>
     </task>
+    <task id="LOCAL-00001" summary="Exercice1 - Exercice2">
+      <option name="closed" value="true" />
+      <created>1710785502440</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710785502440</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exercice1 - Exercice2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice1 - Exercice2" />
   </component>
 </project>

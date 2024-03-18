@@ -11,8 +11,13 @@ public class UserService {
             ServiceException {
         utilisateurApi.creerUtilisateur(utilisateur);
     }
+
+
 }
 
 interface UtilisateurApi {
     void creerUtilisateur(Utilisateur utilisateur) throws ServiceException;
+    boolean creerUtilisateur2 (Utilisateur utilisateur) ;
+
+    int  getIdUtilisateur();
 }
