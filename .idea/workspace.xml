@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da238250-d132-45b9-9751-5741d467084a" name="Changes" comment="Exercice1 - Exercice2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UserServiceTest_Exercice3.java" afterDir="false" />
+    <list default="true" id="da238250-d132-45b9-9751-5741d467084a" name="Changes" comment="Exercice3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Banque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BanqueImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/De.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DebitImpossibleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Jeu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JeuFermeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JeuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Jeux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Joueur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Utilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Utilisateur.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -26,30 +32,77 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2drZKl53upcopXoq5q8MeDu8gp0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "onboarding.tips.debug.path": "C:/My File/Khbish/2023 S2/Assurance de Qualité Logiciel/TP/TP2/TP02/src/main/java/org/example/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/My File/Khbish/2023 S2/Assurance de Qualité Logiciel/TP/TP2/TP02/src/main/java/org/example/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest_Exercice3">
+  <component name="RunManager" selected="JUnit.JeuTest">
+    <configuration name="JeuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.JeuTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JeuTest.testJouer_BanqueInsolvableApresGain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.JeuTest" />
+      <option name="METHOD_NAME" value="testJouer_BanqueInsolvableApresGain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JeuTest.testJouer_JeuFerme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.JeuTest" />
+      <option name="METHOD_NAME" value="testJouer_JeuFerme" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserServiceTest_Exercice3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP02" />
       <extension name="coverage">
@@ -81,61 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest_Exercice3.testCreerUtilisateur_UniqueIDReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UserServiceTest_Exercice3" />
-      <option name="METHOD_NAME" value="testCreerUtilisateur_UniqueIDReturned" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceTest_Exercice3.testCreerUtilisateur_ValidationFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UserServiceTest_Exercice3" />
-      <option name="METHOD_NAME" value="testCreerUtilisateur_ValidationFailure" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceTest.testCreerUtilisateur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UserServiceTest" />
-      <option name="METHOD_NAME" value="testCreerUtilisateur" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JeuTest" />
+        <item itemvalue="JUnit.JeuTest.testJouer_BanqueInsolvableApresGain" />
+        <item itemvalue="JUnit.JeuTest.testJouer_JeuFerme" />
         <item itemvalue="JUnit.UserServiceTest_Exercice3" />
         <item itemvalue="JUnit.UserServiceTest_Exercice3.testCreerUtilisateur_Exception" />
-        <item itemvalue="JUnit.UserServiceTest_Exercice3.testCreerUtilisateur_UniqueIDReturned" />
-        <item itemvalue="JUnit.UserServiceTest_Exercice3.testCreerUtilisateur_ValidationFailure" />
-        <item itemvalue="JUnit.UserServiceTest.testCreerUtilisateur" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710785502440</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Exercice3">
+      <option name="closed" value="true" />
+      <created>1710801192303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710801192303</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +185,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercice1 - Exercice2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice1 - Exercice2" />
+    <MESSAGE value="Exercice3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice3" />
   </component>
 </project>
